@@ -33,6 +33,3 @@ During development, several complex challenges were resolved to ensure app stabi
 2.  **Firestore Composite Indexing:** Resolved query failures on multiple fields (user ID + spot status) by configuring server-side Composite Indexes.
 3.  **UI Lifecycle Integrity:** Prevented `BadTokenException` by validating Activity state (`isFinishing`) before rendering Bottom Sheets or Dialogs.
 4.  **Custom Dialog Transparency:** Overcame Android's default `DecorView` limitations to render truly transparent Lottie animations over the map.
-
-## 👨‍💻 Author
-**Lee** - CS Student, Class of 2026.
